@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: '/api' });
+const API = axios.create({ baseURL: 'https://donation-backend-1ngk.onrender.com/api' });
 
 // Attach token to every request
 API.interceptors.request.use((config) => {
