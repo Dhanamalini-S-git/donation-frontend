@@ -1,41 +1,26 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       fontFamily: {
-        sans: ["'DM Sans'", "sans-serif"],
-        display: ["'Playfair Display'", "serif"],
+        sans: ["'Plus Jakarta Sans'", "sans-serif"],
+        display: ["'Space Grotesk'", "sans-serif"],
       },
       colors: {
         brand: {
-          50: "#fef3ec",
-          100: "#fde0cc",
-          200: "#fbc09a",
-          300: "#f89a63",
-          400: "#f5722d",
-          500: "#e85d0a",
-          600: "#c44c08",
-          700: "#9a3b07",
-          800: "#712b07",
-          900: "#4a1c05",
+          50:"#f5f3ff", 100:"#ede9fe", 200:"#ddd6fe",
+          300:"#c4b5fd", 400:"#a78bfa", 500:"#8b5cf6",
+          600:"#7c3aed", 700:"#6d28d9", 800:"#5b21b6", 900:"#4c1d95",
         },
         sage: {
-          50: "#f0f7f4",
-          100: "#dcede5",
-          200: "#b9dace",
-          300: "#8dc2b0",
-          400: "#5ea48f",
-          500: "#3d8a75",
-          600: "#2e6e5d",
-          700: "#265849",
-          800: "#1f4539",
-          900: "#19352d",
+          50:"#f0fdf4", 100:"#dcfce7", 200:"#bbf7d0",
+          300:"#86efac", 400:"#4ade80", 500:"#22c55e",
+          600:"#16a34a", 700:"#15803d", 800:"#166534", 900:"#14532d",
         },
       },
       boxShadow: {
-        card: "0 2px 12px rgba(0,0,0,0.08)",
-        sidebar: "4px 0 24px rgba(0,0,0,0.1)",
+        card: "0 4px 24px rgba(0,0,0,0.4)",
+        glow: "0 0 30px rgba(139,92,246,0.25)",
       },
     },
   },
